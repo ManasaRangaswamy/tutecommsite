@@ -1,0 +1,183 @@
+
+/* Default*/
+body{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:400;
+}
+
+a i {
+    color:#ECDDD9;
+    font-size:18px;
+}
+
+h1,h2,h3{
+    font-weight: 900;
+}
+
+h4,h5,h6{
+    font-weight:700;
+}
+
+.btn{
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+
+/* Buttons */
+
+.btn-primary{
+    background-color: #020100 !important;
+    border-color: #020100 !important;
+}
+
+.btn-primary:hover{
+    background-color: #fff !important;
+    color:#020100 !important ;
+}
+
+.btn-outline-secondary{
+    background-color:#ccc !important;
+    border-color:#ccc !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #fff !important;
+    color:#020100 !important;
+}
+
+/* Headings */
+
+.section-heading{
+    text-align:center;
+    margin-top:50px;
+}
+
+/* Navbar */
+
+.navbar{
+    opacity: 1;
+}
+
+.navbar-brand{
+    font-size:2rem;
+}
+
+.nav-link,
+.navbar-brand{
+    color:#020100 !important;
+}
+
+.nav-link:hover{
+    color:#777 !important;
+}
+
+.navbar .btn-primary{
+    color:#fff !important;
+}
+
+.navbar .btn-primary:hover{
+    background: transparent;
+    color:#020100;
+}
+
+/* Home */
+
+.home{
+    min-height:550px;
+    overflow: hidden;
+    background-image: url(../img/main-5.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.card{
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover{
+    transform:scale(1.2);
+}
+
+.card-img-top{
+    height:300px;
+    object-fit: cover;
+}
+
+/* call to action */
+
+.call-to-section{
+    background-color: #020100;
+    color:#fff;
+}
+.call-to-section .btn{
+    margin-top: 70px;
+   
+}
+
+/* gallery */
+.price-tag{
+    position: absolute;
+    top:20px;
+    left:20px;
+    padding:20px;
+    background-color: #020100;
+    color:#fff;
+}
+
+.price{
+    font-weight:200;
+    font-size:2rem;
+}
+.dolar{
+    font-size:1.4rem;
+}
+.gallery{
+    column-count: 3;
+    column-width: 30%;
+
+}
+
+.gallery .pics{
+    
+    position: relative;
+    overflow: hidden !important;
+}
+
+.gallery .pics img:hover{
+    transform: scale(1.3)
+}
+
+
+/* Testimonials */
+
+.testimonials img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.testimonials{
+    color:#fff;
+    background-color: #ccc;
+}
+
+/* footer */
+
+.footer{
+    background-color: #020100;
+    color:#fff;
+}
+
+.footer a{
+    color:#fff !important;
+}
+.footer .navbar-brand{
+    color:#fff !important;
+}
+
+.footer h4{
+    margin-top:10px;
+}
